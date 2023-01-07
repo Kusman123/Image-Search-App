@@ -1,0 +1,23 @@
+.search-bar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(141, 141, 237);
+  font-size: 40px;
+  font-family: cursive;
+  margin: 10px;
+}
+
+.search-bar form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 32px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
